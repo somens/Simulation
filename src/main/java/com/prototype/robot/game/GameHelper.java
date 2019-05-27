@@ -110,11 +110,11 @@ public class GameHelper {
 	}
 
 	private void setDirection(String changeDirection) {
-		System.out.println("This is for changing the robot direction");
+		//System.out.println("This is for changing the robot direction");
 		Direction direction = new Direction(robot.getDirection(), changeDirection);
 		String newDirection = direction.changeDirection();
 		robot.setDirection(newDirection);
-		System.out.println("Currently Robot is facing the direction of :-  " + newDirection);
+		//System.out.println("Currently Robot is facing the direction of :-  " + newDirection);
 	}
 
 	private void setCommandFromString(String commandString) {
